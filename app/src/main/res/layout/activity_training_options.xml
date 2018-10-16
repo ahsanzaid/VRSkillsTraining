@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".training_options">
+
+
+    <Button
+
+        android:id="@+id/Vedio_training"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="121dp"
+        android:background="@drawable/button_background"
+        android:text="Vedio Training"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+    <Button
+
+        android:id="@+id/virtual_training"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/Vedio_training"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="291dp"
+        android:background="@drawable/button_background"
+        android:text="Virtual Training"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

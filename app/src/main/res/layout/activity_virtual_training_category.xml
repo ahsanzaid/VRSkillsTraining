@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vedio_training_category">
+    <TextView
+
+        android:layout_height="90dp"
+        android:layout_width="wrap_content"
+        android:text="VR TRAINING"
+        android:textSize="38dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"></TextView>
+
+    <Button
+
+        android:id="@+id/training"
+
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="Training"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/guide"
+        android:layout_below="@+id/training"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:text="Guide"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/results"
+        android:layout_below="@+id/guide"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:text="Results"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/results"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:text="Exit"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
