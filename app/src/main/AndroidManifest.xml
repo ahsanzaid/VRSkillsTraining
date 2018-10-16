@@ -26,7 +26,8 @@
         <activity android:name=".Modes" />
         <activity android:name=".beginner_levels" />
         <activity android:name=".Intermediate_level" />
-        <activity android:name=".Advance_level"></activity>
+        <activity android:name=".Advance_level" />
+        <activity android:name=".Media_Player"></activity>
     </application>
 
 </manifest>
